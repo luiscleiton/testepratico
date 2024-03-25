@@ -1,11 +1,13 @@
-# teste_pratico
+# testepratico
+
 Site Administrativo
 
 Um ambiente administrativo para cadastro de Representantes Comerciais e Clientes.
 
-Login e Senha (default) para acesso ao sistema:
+Acesso ao sistema:
 
-Login: admin
-Senha: admin
+Login (default): admin
+Senha (default): admin
 
-by Luís Cleiton
+by 
+Luís Cleiton
