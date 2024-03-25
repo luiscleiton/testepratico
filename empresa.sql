@@ -43,8 +43,8 @@ CREATE TABLE `clientes` (
 --
 
 INSERT INTO `clientes` (`cod_cliente`, `nome`, `telefone`, `email`, `cnpj_cpf`, `data_cnpj_nasc`, `representante`) VALUES
-(1, 'Robson Antunes', '1319328446', 'robson.antunes@teste.com', '01243557699', '2001-07-03', 'Maria Clara'),
-(2, 'Silvana', '243485835', 'teste.silvana@edu.br', '25367487543', '1986-04-12', 'Francisca');
+(1, 'Felipe Antunes', '1319328446', 'robson.antunes11@uol.com.br', '01243557699', '2001-07-03', 'Larissa Ferraz'),
+(2, 'Isabelle Thierre', '243485835', 'thierry.isabelle19@gmail.com', '25367487543', '1986-04-12', 'Bianca Ferrari');
 
 -- --------------------------------------------------------
 
@@ -69,8 +69,8 @@ CREATE TABLE `representantes` (
 --
 
 INSERT INTO `representantes` (`id_representante`, `nome`, `email`, `cep`, `lagradouro`, `numero`, `bairro`, `cidade`, `uf`) VALUES
-(2, 'Monica Pereira', 'monica.pereira@teste.com', '18324156', 'Rua Gregory', 32, 'Centro', 'Sorocaba', 'SP'),
-(6, 'Luis Cleiton', 'luis.cleiton@edu.br', '18134240', 'Av Anhanguera', 369, 'Jd Bandeirantes', 'Sao Roque', 'SP');
+(1, 'Monica Pereira', 'pereira.monica@icloud.com', '18324156', 'Rua Gregory', 32, 'Centro', 'Sorocaba', 'SP'),
+(2, 'Luis Cleiton', 'luis.cleiton@edu.br', '10829050', 'Est Cristo Redentor', 601, 'Jack Sparrow', 'Sao Mateus', 'SP');
 
 -- --------------------------------------------------------
 
@@ -90,7 +90,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id_usuario`, `nome`, `login`, `senha`) VALUES
-(1, 'Luis Cleiton', 'luis', '502ff82f7f1f8218dd41201fe4353687'),
+(1, 'Luis', 'luis', '502ff82f7f1f8218dd41201fe4353687'),
 (2, 'Teste', 'teste', '698dc19d489c4e4db73e28a713eab07b'),
 (3, 'Admin', 'admin', '21232f297a57a5a743894a0e4a801fc3');
 
